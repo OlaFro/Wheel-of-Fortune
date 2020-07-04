@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spin the wheel of fortune!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">
+      Wheel of fortune
+    </div>
+    <div class="numbers">
+      <div class="rounds">
+        Number of rounds: <span id="counter" class="counter"></span>
+      </div>
+      <div class="score">Score: <span id="score" class="counter"></span></div>
+      <div class="total">
+        Score in total: <span id="total" class="counter"></span>
+      </div>
+    </div>
+    <button class="play" onclick="play()">Spin the wheel!</button>
+    <div class="triangle"></div>
+    <img src="img/Wheel.png" alt="wheel" id="wheel" class="wheel" />
+    <script src="./script.js"></script>
+  </body>
+</html>
